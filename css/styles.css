@@ -1,6 +1,57 @@
-# caroline-johansen-js-frameworks-ma-1
+body {
+	background: rgb(191, 76, 76);
+}
 
-/* images from unsplash */
+/* slider
+----------------------*/
+.slide-wrap {
+  margin: 5% auto 0;
+  width: 50%;
+}
+.slide-mask {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+   
+}
+.slide-group {
+  position: absolute; 
+  top: 0px; 
+  left: 0;
+  width: 600px;
+}
+.slide {
+  height: 600px;
+  width:  600px;
+  
+}
+
+/* nav
+----------------------*/
+.slide-nav {
+  text-align: center;
+}
+.slide-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.slide-nav li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgb(175, 56, 56);
+  cursor: pointer;
+  margin-left: .5em;
+}
+.slide-nav li.current {
+	background: rgb(144, 39, 39);
+}
+
+li {
+    
+ list-style-type: none;   
+}
+
 /* 
 
 https://codepen.io/jurbank/pen/AckDb/
